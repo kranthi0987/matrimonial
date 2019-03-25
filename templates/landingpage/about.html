@@ -1,0 +1,432 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Sportify template project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{% static 'landingAssets/styles/bootstrap-4.1.2/bootstrap.min.css' %}">
+    <link href="{% static 'landingAssets/plugins/font-awesome-4.7.0/css/font-awesome.min.css' %}" rel="stylesheet"
+          type="text/css">
+    <link rel="stylesheet" type="text/css"
+          href="{% static 'landingAssets/plugins/OwlCarousel2-2.3.4/owl.carousel.css' %}">
+    <link rel="stylesheet" type="text/css"
+          href="{% static 'landingAssets/plugins/OwlCarousel2-2.3.4/owl.theme.default.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'landingAssets/plugins/OwlCarousel2-2.3.4/animate.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'landingAssets/styles/main_styles.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'landingAssets/styles/responsive.css' %}">
+</head>
+<body>
+
+<div class="super_container">
+
+    <!-- Header -->
+
+    <header class="header">
+        <div class="header_wrap d-flex flex-row align-items-center justify-content-center">
+
+            <!-- Logo -->
+            <div class="logo"><a href="#"><img src="images/logo_1.png" alt=""></a></div>
+
+            <!-- Main Nav -->
+            <nav class="main_nav">
+                <ul class="d-flex flex-row align-items-center justify-content-center">
+                    <li><a href="index.html">home</a></li>
+                    <li class="active"><a href="about.html">about us</a></li>
+                    <li><a href="classes.html">classes</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Social -->
+            <div class="social header_social">
+                <ul class="d-flex flex-row align-items-center justify-content-start">
+                    <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+
+            <!-- Hamburger -->
+            <div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+
+        </div>
+    </header>
+
+    <!-- Fixed Header -->
+
+    <header class="fixed_header">
+        <div class="header_wrap d-flex flex-row align-items-center justify-content-center">
+
+            <!-- Logo -->
+            <div class="logo"><a href="#"><img src="images/logo_2.png" alt=""></a></div>
+
+            <!-- Main Nav -->
+            <nav class="main_nav">
+                <ul class="d-flex flex-row align-items-center justify-content-center">
+                    <li><a href="index.html">home</a></li>
+                    <li class="active"><a href="about.html">about us</a></li>
+                    <li><a href="classes.html">classes</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Social -->
+            <div class="social header_social">
+                <ul class="d-flex flex-row align-items-center justify-content-start">
+                    <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+
+            <!-- Hamburger -->
+            <div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+
+        </div>
+    </header>
+
+    <!-- Menu -->
+
+    <div class="menu">
+        <div class="menu_door door_left"></div>
+        <div class="menu_door door_right"></div>
+        <div class="menu_content d-flex flex-column align-items-center justify-content-center">
+            <div class="menu_close">close</div>
+            <div class="menu_nav_container">
+                <nav class="menu_nav text-center">
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about us</a></li>
+                        <li><a href="classes.html">classes</a></li>
+                        <li><a href="blog.html">blog</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="social menu_social">
+                <ul class="d-flex flex-row align-items-center justify-content-start">
+                    <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Home -->
+
+    <div class="home">
+        <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/about.jpg"
+             data-speed="0.8"></div>
+        <div class="home_overlay"></div>
+        <div class="home_container d-flex flex-column align-items-center justify-content-center">
+            <div class="home_title"><h1>about us</h1></div>
+        </div>
+    </div>
+
+    <!-- About -->
+
+    <div class="about">
+        <div class="container">
+            <div class="row row-eq-height">
+
+                <!-- About Content -->
+                <div class="col-lg-8">
+                    <div class="about_content">
+                        <div class="section_title_container">
+                            <div class="section_subtitle">aerobics program</div>
+                            <div class="section_title"><h1>about sportify</h1></div>
+                        </div>
+                        <div class="about_text">
+                            <p>Aenean auctor nisl vitae auctor faucibus. Pellentesque imperdiet auctor eros, sit amet
+                                ornare mauris malesuada in. Duis rutrum nisi tempus finibus luctus. Sed porta vel lacus
+                                quis lacinia. Vestibulum nec justo lectus. In hac habitasse platea dictumst. Proin
+                                vulputate rhoncus nibh eu vehicula. Donec vitae laoreet quam, ac feugiat nibh. Aenean
+                                auctor nisl vitae auctor faucibus. Pellentesque imperdiet auctor eros, sit amet ornare
+                                mauris malesuada in. Duis rutrum nisi tempus finibus luctus.</p>
+                        </div>
+                        <div class="button about_button"><a href="#">read more</a></div>
+                    </div>
+                </div>
+
+                <!-- About Image -->
+                <div class="col-lg-4">
+                    <div class="about_image">
+                        <img src="images/about_2.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Quote -->
+
+    <div class="quote">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="quote_content d-flex flex-row align-items-center justify-content-center text-center">
+                        <p>“Train like a beast look like a beauty”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Trainers -->
+
+    <div class="trainers">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="section_title_container text-center">
+                        <div class="section_subtitle">aerobics program</div>
+                        <div class="section_title"><h1>our trainers</h1></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row trainers_row">
+
+                <!-- Trainer -->
+                <div class="col-xl-3 col-md-6">
+                    <div class="trainer_box">
+                        <div class="trainer_image">
+                            <img src="images/trainer_1.jpg" alt="">
+                            <div class="trainer_info">
+                                <div class="d-flex flex-column align-items-center justify-content-center">
+                                    <div class="trainer_name"><a href="#">michael smith</a></div>
+                                    <div class="trainer_title">Pilates Trainer</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trainer_content">
+                            <div class="social trainer_social">
+                                <ul class="d-flex flex-row align-items-center justify-content-center">
+                                    <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="trainer_text text-center">
+                                <p>Nisl vitae auctor faucibus. Pellentesque imperdiet auctor eros, sit amet ornare
+                                    mauris malesuada in.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trainer -->
+                <div class="col-xl-3 col-md-6">
+                    <div class="trainer_box">
+                        <div class="trainer_image">
+                            <img src="images/trainer_2.jpg" alt="">
+                            <div class="trainer_info">
+                                <div class="d-flex flex-column align-items-center justify-content-center">
+                                    <div class="trainer_name"><a href="#">jenny williams</a></div>
+                                    <div class="trainer_title">Pilates Trainer</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trainer_content">
+                            <div class="social trainer_social">
+                                <ul class="d-flex flex-row align-items-center justify-content-center">
+                                    <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="trainer_text text-center">
+                                <p>Nisl vitae auctor faucibus. Pellentesque imperdiet auctor eros, sit amet ornare
+                                    mauris malesuada in.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trainer -->
+                <div class="col-xl-3 col-md-6">
+                    <div class="trainer_box">
+                        <div class="trainer_image">
+                            <img src="images/trainer_3.jpg" alt="">
+                            <div class="trainer_info">
+                                <div class="d-flex flex-column align-items-center justify-content-center">
+                                    <div class="trainer_name"><a href="#">james smith</a></div>
+                                    <div class="trainer_title">Pilates Trainer</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trainer_content">
+                            <div class="social trainer_social">
+                                <ul class="d-flex flex-row align-items-center justify-content-center">
+                                    <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="trainer_text text-center">
+                                <p>Nisl vitae auctor faucibus. Pellentesque imperdiet auctor eros, sit amet ornare
+                                    mauris malesuada in.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trainer -->
+                <div class="col-xl-3 col-md-6">
+                    <div class="trainer_box">
+                        <div class="trainer_image">
+                            <img src="images/trainer_4.jpg" alt="">
+                            <div class="trainer_info">
+                                <div class="d-flex flex-column align-items-center justify-content-center">
+                                    <div class="trainer_name"><a href="#">cris white</a></div>
+                                    <div class="trainer_title">Pilates Trainer</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trainer_content">
+                            <div class="social trainer_social">
+                                <ul class="d-flex flex-row align-items-center justify-content-center">
+                                    <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="trainer_text text-center">
+                                <p>Nisl vitae auctor faucibus. Pellentesque imperdiet auctor eros, sit amet ornare
+                                    mauris malesuada in.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA -->
+
+    <div class="cta">
+        <div class="d-flex flex-xl-row flex-column align-items-start justify-content-start">
+
+            <!-- CTA Image -->
+            <div class="cta_image align-self-stretch">
+                <div class="background_image" style="background-image:url(images/cta_2.jpg)"></div>
+            </div>
+
+            <!-- CTA Content -->
+            <div class="cta_content">
+                <div class="section_title_container">
+                    <div class="section_subtitle">aerobics program</div>
+                    <div class="section_title"><h1>get a personal trainer</h1></div>
+                </div>
+                <div class="cta_text">
+                    <p>Aenean auctor nisl vitae auctor faucibus. Pellentesque imperdiet auctor eros, sit amet ornare
+                        mauris malesuada in. Duis rutrum nisi tempus finibus luctus. Aenean auctor nisl vitae auctor
+                        faucibus. Pellentesque imperdiet auctor eros, sit amet ornare mauris malesuada in. Duis rutrum
+                        nisi tempus finibus luctus.</p>
+                </div>
+                <div class="cta_buttons">
+                    <div class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+                        <div class="button cta_button"><a href="#">read more</a></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="footer_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="footer_logo text-center"><a href="#"><img src="images/logo_3.png" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="row footer_row">
+                    <div class="col-lg-4 footer_col">
+                        <div class="footer_item text-center">
+                            <div class="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+                                <div><img src="images/phone.png" alt=""></div>
+                            </div>
+                            <div class="footer_title">talk to us</div>
+                            <div class="footer_list">
+                                <ul>
+                                    <li>+34 5667 4332 244</li>
+                                    <li>+224 667 889</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 footer_col">
+                        <div class="footer_item text-center">
+                            <div class="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+                                <div><img src="images/mail.png" alt=""></div>
+                            </div>
+                            <div class="footer_title">e-mail</div>
+                            <div class="footer_list">
+                                <ul>
+                                    <li>Contact@sportify25.com</li>
+                                    <li>office@sportify25.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 footer_col">
+                        <div class="footer_item text-center">
+                            <div class="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+                                <div><img src="images/contact.png" alt=""></div>
+                            </div>
+                            <div class="footer_title">location</div>
+                            <div class="footer_list">
+                                <ul>
+                                    <li>MAin str. 25</li>
+                                    <li>458811 CA</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bar d-flex flex-row align-items-center justify-content-center">
+            <div class="copyright">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                    href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+        </div>
+    </footer>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="styles/bootstrap-4.1.2/popper.js"></script>
+<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.3.4/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/progressbar/progressbar.min.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/about.js"></script>
+
+</body>
+</html>
