@@ -16,13 +16,15 @@ Including another URLconf
 from django.contrib import admin
 from django.contrib.auth import views as auth_views
 from django.urls import path, include
+from profiles.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('landing.urls')),
     path('login/', auth_views.LoginView.as_view(template_name='pages/login.html'), name='login'),
     path('user/logout/', auth_views.LogoutView.as_view(), {'next_page': '/'}, name='logout'),
-    path('profile/', include('profiles.urls')),
+    # path('profile/', include('profiles.urls')),
+    path('user/registration/',user_register,name='registraion')
 
 ]
 handler404 = 'landing.views.handler404'
